@@ -1,9 +1,5 @@
 # vault-k8s-demo-python-mysql-webapp
-
-My test Env
-1) Docker Desktop v2.3.0.3  with k8s enabled
-2) Helm v3.2.1 
-3) MacOS 10.15.5
+This repo is based on https://github.com/kaparora/vault-k8s-demo-python-mysql-webapp an includes some minor updates
 
 This is a bunch of shell scripts to test HashiCorp Vault K8S integration including secret injection.
 We use the k8s auth method, mysql db secret engine, dynamic secrets, transit and transform secret engine
